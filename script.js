@@ -41,10 +41,10 @@ playBtn.addEventListener("click", async () => {
             {
                 method: "POST",
 
-                headers: {
-                    "Content-Type": "application/json"
-                },
-
+               headers: {
+"Content-Type": "application/json",
+"x-api-key": "45162fc0a3034f33a28acf9da36905cd"
+},
                 body: JSON.stringify({
                     text: text,
                     voice: voiceSelect.value
